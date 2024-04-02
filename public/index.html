@@ -10,17 +10,21 @@
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Enter city name">
-            <button>Search</button>
+            <button id="search">Search</button>
         </div>
         <div class="weather_content">
-            <h1>32˚c</h1>
-            <h2>Austin</h2>
+            <h1 id="temp">32˚c</h1>
+            <h2 id="city">Austin</h2>
             <div class="details">
                 <div class="">Humidity</div>
-                <div class="">Wind</div>    
+                <div id="humidity"></div>
+                <div class="">Wind</div>
+                <div id="wind"></div>
             </div>
         </div>
 
     </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
